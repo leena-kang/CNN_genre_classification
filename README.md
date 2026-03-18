@@ -3,7 +3,7 @@ Stats 426 Deep Learning Final Project: Predicting Genre through Visual Cues: A D
 
 Leena Kang, Shaina Wang, Emily Kim, Amber Jiang
 
-Abstract (250 words): 
+Abstract: 
 Music genre classification has traditionally focused on analyzing audio signals, where models leverage features such as spectrograms to effectively learn patterns associated with different musical styles. However, music is not only defined by sound but also by its visual presentation, particularly through album cover artwork. Album covers often reflect stylistic and cultural elements intended to communicate the mood or identity of the music, suggesting that visual cues may contain signals related to genre. Despite this, the extent to which visual information alone can support accurate genre classification remains unclear.
 
 In this work, we investigate whether modern deep learning models can classify musical genres using only album cover images. We train and evaluate two convolutional neural network (CNN) architectures: a simple custom CNN that serves as a baseline model and a deeper ResNet-50 model implemented in PyTorch. Both models are trained on a dataset of album cover images spanning five music genres, and performance is evaluated using overall classification accuracy and class-wise F1 scores to analyze genre-specific confusion patterns.
